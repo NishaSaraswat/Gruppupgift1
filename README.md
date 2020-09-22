@@ -2,7 +2,7 @@
 A website for dog daycare
 
 ## Företagsbeskrivning
-  ### Wuff & Huff
+  ### Wuff - Huff
 
    *Vi erbjuder ett hunddagis i en lugn och trivsam miljö med en trygg och säker plats för din hund att vistas när du är ut för job.
    Vår lokal är ljus, fräsch och noggrannt planerad för stora och små hundar.
