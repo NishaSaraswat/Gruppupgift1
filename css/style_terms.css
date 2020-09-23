@@ -1,0 +1,10 @@
+.header{
+    display: flex;
+    background-color: #39ac73;
+}
+.nav-bar{
+    display: flex;
+}
+.footer{
+    display: flex;
+}
