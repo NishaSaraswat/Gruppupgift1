@@ -1,0 +1,253 @@
+body{
+    font-family: sans-serif, Verdana, Geneva, Tahoma ;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .clearfix:before {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+         
+.header-container{
+    display:flex;
+    background-color:transparent;
+    font-family: sans-serif;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type:none;
+    animation-name:ani1;
+    animation-duration: 5s;
+}
+
+
+nav a{
+    
+    width:50px;
+    height:30px;
+    font-size:18px;
+    text-align:center;
+    text-decoration: none;
+    margin:50px;
+    color: rgb(20, 65, 20);
+    animation-name:ani2;
+    
+}
+a:hover{
+  color:#909F43;
+  background-color:rgb(223, 249, 223);
+  border-radius: 15%;
+}
+
+.logo{
+  animation-name:ani2;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes ani1{
+
+  from
+  {background-color:transparent;}
+  to{background-color: honeydew;}
+
+}
+@keyframes ani2{
+
+  from
+  {top:0px;}
+  to{margin-top:10px;}
+
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 4px;
+  }
+ 
+
+  .flex-container { 
+    display: flex;
+    width:100%;
+    height:480px; 
+    background-image:url("images/whitedog.jpg");
+    margin-top: 50px;
+    padding-top:20px; 
+    padding-left:15px; 
+    padding-right:15px; 
+    display: flex;
+    justify-content: space-around;
+} 
+#st-box,
+#nd-box,
+#rd-box
+ {  
+    width:320px; 
+    height:320px; 
+    background-color:rgba(225, 236, 222, 0.8); 
+    margin-top: 50px;
+    animation: crescendo 1.5s ease-out;
+  }
+  
+  @keyframes crescendo {
+    0%   {transform: scale(0.3);}
+    100% {transform: scale(1);}
+  }
+
+.text{
+    width:280px;
+    height:280px;
+    border: 1px solid black;
+    margin:20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+    
+
+
+.basic-info{
+    list-style-type: none;
+    font-size: 22px;
+    color:darkgreen;
+    text-align: center;
+    line-height: 1.5;
+    
+}
+
+.team{
+    line-height: 3;
+}
+.basic-info li a {
+    text-decoration: none;
+    color:darkgreen;
+}
+
+.left-img{
+    float:left;
+    width:500px;
+    height:350px;
+    margin-left:80px;
+    margin-top:100px;
+    border-radius: 50%;
+  }
+  h1,
+  h2,
+  h3{
+      color:rgb(17, 58, 17);
+      text-align: center;
+      margin-top: 50px;
+  }
+
+  .text-block{
+    display:inline-block;
+    height:350px;
+    width:700px;
+    margin-left:80px;
+    font-size:18px;
+    line-height: 150%;
+    margin-bottom:80px;
+
+  }
+ 
+  .right-img{
+      float:right;
+      width:500px;
+      height:350px;
+      margin-right:150px;
+      margin-top:100px;
+      border-radius: 50%;
+  }
+
+  button{
+      display: inline-block;
+      margin-left:1300px;
+      padding: 15px 10px;
+      font-size: 18px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      color: #fff;
+      background-color: #d8e6d8;
+      border: none;
+      border-radius: 50%;
+      box-shadow: 0 9px #999;
+
+  }
+
+  button a{
+    text-decoration: none;
+    color:darkgreen;
+  }
+  .team-container {
+    position: relative;
+    text-align: center;
+    color:rgb(5, 78, 5);
+  }
+  .team-img{
+      width:90%;
+      height: 500px;
+      opacity: 0.25;
+
+  }
+
+  .team-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color:rgb(3, 48, 3);
+    line-height:150%;
+ 
+  }
+  .clearfix:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    margin-left:50px;
+    margin-top:50px;
+    border-radius: 30%;
+
+  }
+
+  .container2{
+    display:flex;
+    flex-direction: row;
+    flex-grow:1;
+    justify-content: space-around;
+    
+    
+  }
+
+
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .description{
+    font-size: 15px;
+    color:rgb(11, 53, 11);
+    line-height: 150%;
+  }
+
+
+
+  
