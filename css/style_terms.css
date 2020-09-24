@@ -3,17 +3,6 @@
     grid-template-columns: 50% 50%;
     grid-column-gap: 1em;
 }
-.section_ > section{
-    background: thistle;
-    padding: 1em;
-}
-.section_ > section:nth-child(odd){
-    background: violet;
-}
-
-.header {
-    background-color: transparent;
-}
 .nav-bar{
     display: flex;
     justify-content: flex-end;
@@ -29,8 +18,9 @@
     font-size: 300%;
     display: flex;
     justify-content: center;
+    font-family: 'Open Sans', sans-serif;
 }
-img{
+.image{
     position: absolute;
     width: 100%;
     height: auto;
@@ -53,7 +43,7 @@ img{
     display: flex;
     flex-direction: column;
     padding: 20px;
-    flex-flow; row wrap;
+    flex-flow: row wrap;
 }
 .section2 section{
     margin: 20px;
