@@ -80,8 +80,8 @@ a:hover{
     padding-top:20px; 
     padding-left:15px; 
     padding-right:15px; 
-    display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 } 
 #st-box,
 #nd-box,
@@ -92,6 +92,7 @@ a:hover{
     background-color:rgba(225, 236, 222, 0.8); 
     margin-top: 50px;
     animation: crescendo 1.5s ease-out;
+    flex-grow: 1;
   }
   
   @keyframes crescendo {
