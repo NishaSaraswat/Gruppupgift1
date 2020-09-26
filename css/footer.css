@@ -1,0 +1,51 @@
+
+
+.container{
+
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: space-around;
+    text-align: center;
+    margin: 0;
+    padding-top:1%;
+}
+
+footer{
+    box-sizing: border-box;
+    width: 100%;
+   background: rgb(31, 29, 29); 
+    color: honeydew;    
+}
+
+footer ul{
+    list-style:none;   
+}
+footer li{
+    line-height: 1.5em;
+}
+
+
+.topic{
+            color: rgb(65, 118, 65);
+            padding-bottom: 20px;
+            
+}
+.copyright{
+    text-align: center;
+    color: ivory;
+    background:rgba(65, 118, 65, 0.5);
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+  
