@@ -1,14 +1,16 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body, html{
+    color:rgb(38, 99, 46); 
     height: auto;
-    background-image: url();
+    background-image: url(/imgs/homeimgs/Abstract\ Ambient\ Light\ Background\ Day\ Blue-01.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: cover;
     background-size: auto;
 }
 
@@ -46,10 +48,15 @@ body, html{
 
 
 .slide-show img:nth-child(1){animation-delay:0s;}
-.slide-show img:nth-child(2){animation-delay:5s;}
-.slide-show img:nth-child(3){animation-delay:10s;}
-.slide-show img:nth-child(4){animation-delay:15s;}
-.slide-show img:nth-child(5){animation-delay:20s;}
+.slide-show img:nth-child(2){animation-delay:4s;}
+.slide-show img:nth-child(3){animation-delay:8s;}
+.slide-show img:nth-child(4){animation-delay:12s;}
+.slide-show img:nth-child(5){animation-delay:16s;}
+.slide-show img:nth-child(6){animation-delay:20s;}
+.slide-show img:nth-child(7){animation-delay:24s;}
+.slide-show img:nth-child(8){animation-delay:28s;}
+.slide-show img:nth-child(9){animation-delay:32s;}
+
 
 .container2{
     box-sizing: border-box;
