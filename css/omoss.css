@@ -71,7 +71,7 @@ a:hover{
     display: flex;
     width:100%;
     height:auto; 
-    background-image:url("images/whitedog.jpg");
+    background-image:url("/images/whitedog.jpg");
     margin-top: 50px;
     padding: 20px 15px; 
     flex-wrap: wrap;
