@@ -1,27 +1,27 @@
 nav{
-    display:flex;
+    display: flex;
     align-items: center; 
     justify-content: space-around;
-    font-family: sans-serif;
-    background-color:transparent;
+    background-color: transparent;
     animation-name:ani1;
     animation-duration: 5s;
-
 }
 a{
     text-decoration: none;
-    color: rgb(20, 65, 20);
-    animation-name:ani2;
-    
+    color: #3c413e;
+    animation-name: ani2;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 130%;
+    padding: 15px;
 }
 nav :hover{
-    color:#909F43;
-   background-color:rgb(223, 249, 223);
-   border-radius: 15%;
+    color: white;
+   background-color: #64915c;
+   border-radius: 10%;
    
 }
 .logo{
-    animation-name:ani2;
+    animation-name: ani2;
     animation-duration: 1s;
     animation-fill-mode: forwards;
 }
@@ -29,8 +29,8 @@ nav :hover{
 @keyframes ani1{
 
     from
-    {background-color:transparent;}
-    to{background-color: honeydew;}
+    {background-color: transparent;}
+    to{background-color: #64915c;}
     
 }
 @keyframes ani2{
@@ -40,5 +40,3 @@ nav :hover{
     to{margin-top:10px;}
     
 }
-
-
