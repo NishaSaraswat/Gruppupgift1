@@ -273,62 +273,8 @@ a:hover{
   }
 
 
-  .footer-container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap:wrap;
-    justify-content: space-evenly;
-    width:100%;
-    height:auto; 
-    background-color:rgba(7, 117, 7, 0.4);
-    margin-top: 50px;
-    padding: 20px 15px; 
-    align-items: center;
-  }
 
-  .footer-item{
-    flex-basis:1;
-    flex-grow:1;
-    align-self: center;
-    
-  }
 
-  /* Style all font awesome icons */
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
-  text-decoration: none;
-}
-
-/* Add a hover effect if you want */
-.fa:hover {
-  background-color: lightblue;
-}
-
-/* Set a specific color for each brand */
-
-/* Facebook */
-.fa-facebook {
-  background:rgba(197, 250, 197, 0.2);
-  color:rgb(61, 153, 196);
-  text-align: center;
-  margin-right:10px;
-  border-radius: 50%;
-
-}
-
-/* instagram */
-.fa-instagram {
-  background: rgb(223, 249, 223, 0.2);
-  color:purple;
-  border-radius: 50%;
-
-}
-
-.open-time{
-  text-align: center;
-}
 
 
 
