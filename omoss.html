@@ -6,9 +6,10 @@
     <title>Hund Dagis</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" type="text/css" href="normalized.css>">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" type="text/css" href="css/omoss.css">
     <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -18,8 +19,8 @@
             <img class="logo" src="images/logo5.png" alt="logo">
             <div class="item item1"><a href="index.html">Hem</div></a>
             <div class="item item2"><a href="omoss.html">Om Oss</div></a>
-            <div class="item item3"><a href="#">Priser</div></a>
-            <div class="item item4"><a href="#">Villkor</div></a>
+            <div class="item item3"><a href="price.html">Priser</div></a>
+            <div class="item item4"><a href="">Villkor</div></a>
         </nav>
     </header>
     <main id="top">
@@ -27,8 +28,8 @@
         <div class="guide-container"> 
             <div id="st-box"> 
                 <div class="text">
-                    <h2>Daglig Aktivitet</h2>
-                    <ul class="basic-info">
+                    <h3>Daglig Aktivitet</h3>
+                    <ul class="guide-info"> 
                         <li><a href="#indoor">Inomhus</a></li>
                         <li><a href="#outwalking">Promenader</a></li>
                         <li><a href="#activities">Aktivering</a></li>
@@ -39,8 +40,8 @@
               
             <div id="nd-box"> 
                 <div class="text">
-                    <h2>Our Team</h2>
-                    <ul class="basic-info team">
+                    <h3>Our Team</h3>
+                    <ul class="guide-info team">
                         <li><a href="#team">Hundskötare</a></li>
                         <li><a href="#team">Hundtränare</a></li>
                     </ul>
@@ -49,8 +50,8 @@
               
             <div id="rd-box">
                 <div class="text">
-                    <h2>Behandlingar</h2>
-                    <ul class="basic-info service">
+                    <h3>Behandlingar</h3>
+                    <ul class="guide-info service">
                         <li><a href="#hundfrisör">Hundfrisör</a></li>
                         <li><a href="#kloklipp">Kloklipp</a></li>
                         <li><a href="#hundbad">Hundbad</a></li>
@@ -63,70 +64,73 @@
         <br>
         <hr>
     <!---contents are divided into three sections-->
-
-        <div class="content-container">
-            <section class="Dalig-Aktivitet">
-                <h2 id="DA"><strong>Daglig Aktivitet</strong></h2>
-                <div class="content-item">
-                    <img  class="left-img" src="images/inomhus.jpg" alt="indoor activities">
-                        <h3 id="indoor">Inomhus på dagis</h3><br>
-                        <p>Inne på dagis bor hundarna tillsammans i boxar i väl anpassade grupper. 
-                                Boxarna är inredda så likt hemmiljö som möjligt med t.ex. soffor, fåtöljer och mysiga sovplatser.
-                            Om miljön på dagis är för livlig blir hunden antingen så trött att den bara vill sova hemma eller 
-                            så blir den stressad. Om hunden däremot har för tråkigt får den överskottsenergi och blir orolig.
-                        </p>
-                        <p>
-                            Våra hunddagis har olika avdelningar för stora och små hundar, men vi har även flera mindre grupper. Många hundar mår 
-                            bra av att vara sociala och umgås med andra, men alla passar inte ihop och därför är det oerhört viktigt 
-                            att man placeras i rätt grupp.Man kan jämföra det med hattceremonin i Harry Potter när den kloka hatten 
-                            talar om i vilket elevhem varje trollkarl hör hemma. Hos oss har vi tyvärr ingen klok hatt, 
-                            men istället har vi många professionella medarbetare som är utbildade av oss och duktiga på att placera
-                            varje ny hund i en grupp där man trivs och utvecklas.
-                        </p>
-                
+<!---first: content-section-->
+        <section class="content-container">
+                <div class="item1">
+                        <img src="images/inomhus.jpg" alt="indoor activities" style="width: 100%" >
                 </div>
-                <br>
-                <br>
-                <hr>
-                <div class="content-item">
-                    <img class="right-img" src="images/outwalking.jpg" alt="dogs outwalking">
-                    <article class="text-block">
-                        <h3 id="outwalking">Promenader</h3>
-                        <p>På förmiddagarna får alla hundar komma ut på en långpromenad på 1-2 timmar och promeneras då i grupper om 
+                
+                <div class="item2">  
+                    <h3>Inomhus på dagis</h3>
+                    <p>Inne på dagis bor hundarna tillsammans i boxar i väl anpassade grupper. 
+                        Boxarna är inredda så likt hemmiljö som möjligt med t.ex. soffor, fåtöljer och mysiga sovplatser.
+                    </p>
+                    <p>
+                        Våra hunddagis har olika avdelningar för stora och små hundar, men vi har även flera mindre grupper. Många hundar mår 
+                        bra av att vara sociala och umgås med andra, men alla passar inte ihop och därför är det oerhört viktigt 
+                        att man placeras i rätt grupp.Man kan jämföra det med hattceremonin i Harry Potter när den kloka hatten 
+                        talar om i vilket elevhem varje trollkarl hör hemma. Hos oss har vi tyvärr ingen klok hatt, 
+                        men istället har vi många professionella medarbetare som är utbildade av oss och duktiga på att placera
+                        varje ny hund i en grupp där man trivs och utvecklas.
+                    </p>    
+                </div>
+                
+
+                <div class="item3">
+                    <img src="images/outwalking.jpg" alt="dogs outwalking" style="width: 100%">
+                </div>
+                
+                <div class="item4">
+                    <h3>Promenader</h3>
+                    <p>På förmiddagarna får alla hundar komma ut på en långpromenad på 1-2 timmar och promeneras då i grupper om 
                         ca 5-6 hundar per grupp. Vi går t.ex. till Vintervikens härliga grönområden, Årstaskogen, sjön Trekanten, 
-                        på Hägerstens fina promenadvägar eller till någon av områdets hundrastgårdar.</p>
+                        på Hägerstens fina promenadvägar eller till någon av områdets hundrastgårdar.</p> 
                     <p>Vi låter aldrig hundarna hälsa på utomstående hundar under promenaderna för att undvika smittspridning och eventuella bråk.
                         På eftermiddagen får hundarna komma ut på kortare promenader då vi är ute ca 20-30 minuter och går t.ex. 
                         till Svandammsparken eller i närområdet kring dagis.Vissa dagar går vi till någon av de allmänna hundrastgårdarna
                         i området med de dagishundar som tycker det är roligt att leka där. Inte heller i rastgården blandar vi 
-                        våra dagishundar med utomstående hundar.</p>                       
-                    </article>
+                        våra dagishundar med utomstående hundar.</p>  
                 </div>
-                <br>
-                <br>
-                <hr>
-                <div class="content-item">
-                    <img class="left-img" src="images/dog-training.jpg" alt="activities" height="400px">
-                    <article class="text-block">
-                        <h3 id="activities">Träning och aktivering</h3>
-                        <p> Vi erbjuder utmärkta möjligheter till träning året om i vår inomhushall. 
+                
+                <div class="item5">
+                    <img class="left-img" src="images/dog-training.jpg" alt="activities" style="width: 100%">  
+                </div>   
+                
+                <div class="item6"> 
+                    <h3>Träning och aktivering</h3>
+                    <p> Vi erbjuder utmärkta möjligheter till träning året om i vår inomhushall. 
                             Hallen är uppvärmd och håller 
                             en temperatur på ca 15 grader. Vid utomhustemperatur som överstiger 15 + grader så håller hallen ungefär samma temperatur inne som 
                             det är utomhus.Vi har även satsat på bra belysning i hela hallen. Hallen är till vardags uppdelad i tre delar med 
                             draperier och staket mellan. 
-                        <p>Hallen hyrs ut per timme och del. Givetvis går det även att hyra två delar, 
+
+                    <p>Hallen hyrs ut per timme och del. Givetvis går det även att hyra två delar, 
                             eller hela hallen.För att skapa så bra träningsmöjligheter som möjligt krävs ett bra underlag. 
                             I vår hall har vi en gummimatta med mönstrat ytskikt från Matting. Denna ger både ett bra grepp och en bra 
-                            svikt som är skonsam för såväl hund som förare.</p>
-            </section>
-        </div>
+                            svikt som är skonsam för såväl hund som förare.
+                    </p>
+                </div>    
+        </section>
+        <br>
+        <br>
         <button><a href="#top">Top ↑</a></button>
         <hr>
-        <section class="team-container">
-            <h2><strong></strong></h2>
-            <div class="">
-                <img class="team-item team-img " src="images/team.jpg" alt="group picture">
-                <div class="team-item team-text ">
+
+        <!---Second: Team section-->
+        <section class="team-container clearfix">
+            <div>
+                <img class="team-img " src="images/team.jpg" alt="group picture" style="width: 100%; height: 150%;">
+                <div class="team-text">
                     <h3 id="team">Our Team</h3>
                     <p>Vi är professionell, punktlig och ansvarstagande. Vi är alltid i tid när ni behövs. Alla vår hundskötare 
                     kan jobba självständigt såväl som i grupp. Vi tar självklart hand om hundarna på bästa sätt, som om de vore vår egna.
@@ -142,44 +146,65 @@
         <br>
         <br>
         <br>
-        <section class="clearfix">
-            <h1>Behandlingar</h1>
-            <div class="row container1">
-                <div class="column">
-                  <a href=" "><img id="hundfrisör" src="images/hundfrisor.jpg" alt="hundfrisör" style="width:85%"></a>
-                  <h3 ><a href=" ">Hundfrisör</a></h3>
-                  <p class="description">Vi erbjuder både klippning och trimning (ryckning) av alla hundraser. 
+        <!----Third: behandling section-->
+        <section>
+            <div class="behandling-container clearfix">
+                <!--cards-->
+                <div id="hundfrisör">
+                    <div class="card">
+                        <a href=" "><img src="images/hundfrisor.jpg" alt="hundfrisör" style="width:80%"></a>
+                        <div class="card-container">
+                            <h4>Hundfrisör</h4>
+                            <p>Vi erbjuder både klippning och trimning (ryckning) av alla hundraser. 
                       Vi utför vardagsklippningar, inte klippningar för utställning.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="column">
-                  <a href=""><img id="kloklipp" src="images/Kloklipp hund.jpg" alt="kloklipp" style="width:85%"></a>
-                  <h3 ><a href="">Kloklipp</a></h3>
-                  <p class="description">En hund märker om någon är van att klippa klor eller ej. 
-                      Därför är de ofta betydligt beskedligare med oss än med matte eller husse.</p>
+            
+                <div id="kloklipp">
+                    <div class="card">
+                        <a href=""><img src="images/Kloklipp hund.jpg" alt="kloklipp" style="width:80%"></a>
+                            <div class="card-container">
+                                <h4>Kloklipp</h4>
+                                <p>En hund märker om någon är van att klippa klor eller ej. 
+                        Därför är de ofta betydligt beskedligare med oss än med matte eller husse.</p>
+                            </div>
+                        </div>
                 </div>
-                <div class="column">
-                  <a href=""><img id="hundbad" src="images/Hundbad.jpg" alt="hundbad" style="width:85%"></a>
-                  <h3><a href="">Hundbad</a></h3>
-                  <p class="description">
-                    Vi starkt rekommenderar för den som inte längre orkar ha avloppet 
-                    fyllt med hundhår eller brottas med en dyblöt hund som försöker hoppa ur baljan</p>
+            
+                <div id="hundbad">
+                    <div class="card">
+                        <a href=""><img src="images/Hundbad.jpg" alt="hundbad" style="width:80%"></a>
+                        <div class="card-container">
+                            <h4>Hundbad</h4>
+                            <p>Vi starkt rekommenderar för den som inte längre orkar ha avloppet 
+                            fyllt med hundhår eller brottas med en dyblöt hund som försöker hoppa ur baljan</p>
+                        </div>    
+                    </div>   
+                
                 </div>
-            </div>
-            <div class="row container2">
-                <div class="column second-row">
-                    <a href=""><img id="tovutredningt" src="images/Tovutredningt.jpg" alt="tovutredningt" style="width:85%"></a>
-                    <h3><a href="">Tovutredningt</a></h3>
-                    <p class="description">Är din hund håröm eller springer och gömmer sig så fort du tar fram kardan, eller vill du helt enkelt ägna er 
+                <div id="tovutredningt">
+                    <div class="card"> 
+                        <a href=""><img src="images/Tovutredningt.jpg" alt="tovutredningt" style="width:80%"></a>
+                        <div class="card-container">
+                            <h4>Tovutredningt</h4>
+                            <p>Är din hund håröm eller springer och gömmer sig så fort du tar fram kardan, eller vill du helt enkelt ägna er 
                         tid tillsammans till roligare saker än att kamma ur tovor så är tovutredning något du kan överlåta på oss.</p>
-                  </div>
-                  <div class="column second-row">
-                    <a href=""><img id="öronrengöring" src="images/Öronrengöring.jpg" alt="Öronrengöring" style="width:85%"></a>
-                    <h3><a href="">Öronrengöring</a></h3>
-                    <p class="description">Öronen tvättas med öronrengöring</p>
-                  </div>
-            </div>
-        </section>
+                        </div>
+                    </div>
+                </div>
+                <div id="öronrengöring"> 
+                    <div class="card">
+                        <a href=""><img src="images/Öronrengöring.jpg" alt="Öronrengöring" style="width:80%"></a>
+                        <h4>Öronrengöring</h4>
+                        <p>Öronen tvättas med öronrengöring</p>
+                    </div>
+               
+        
+            </section>      
+        
     </main>
+    <!---footer container-->
     <footer>
         <div class="container"> 
                 <div class="öppen">
