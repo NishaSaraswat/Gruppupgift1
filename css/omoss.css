@@ -120,19 +120,26 @@ a:hover{
     color:darkgreen;
 }
 
-#DA{
-  margin-top:150px;
-}
 
 /*Content-container css*/
 
 .content-container{
   display:flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-items:center;
+}
   
+
+.content-item p ,h3{
+
+  display: inline;
+  
+}
+ #DA{
+
+  margin-top: 5%;
+  margin-bottom: 15%;
 }
 
 /*.content-item{
@@ -144,11 +151,8 @@ a:hover{
 */
 .left-img{
     float:left;
-    /*width:500px;
-    height:350px;*/
     margin-left:80px;
     margin-right:50px;
-    margin-top:50px;
     width:40%;
     border-radius: 50%;
 
@@ -159,6 +163,9 @@ a:hover{
       color:rgb(17, 58, 17);
       text-align: center;
       margin-top: 50px;
+      
+      
+      
   }
 
   .text-block{
