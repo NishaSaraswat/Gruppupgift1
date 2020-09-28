@@ -10,14 +10,17 @@ nav{
 }
 a{
     text-decoration: none;
-    color: rgb(20, 65, 20);
+    color: #3c413e;
     animation-name:ani2;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 130%;
+    padding: 15px;
     
 }
 nav :hover{
-    color:#909F43;
-   background-color:rgb(223, 249, 223);
-   border-radius: 15%;
+    color:white;
+   background-color:#64915c;
+   border-radius: 10%;
    
 }
 .logo{
@@ -30,7 +33,7 @@ nav :hover{
 
     from
     {background-color:transparent;}
-    to{background-color: honeydew;}
+    to{background-color: #64915c;}
     
 }
 @keyframes ani2{
