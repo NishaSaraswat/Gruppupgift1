@@ -81,7 +81,6 @@ p{
     }
     .grid2{
         display: grid;
-        grid-template-columns: 1fr;
         margin-left: 0px;
         margin-bottom: 5px;
         background-color: #64915c;
@@ -89,7 +88,6 @@ p{
     }
     .grid3{
         display: grid;
-        grid-template-columns: 1fr;
         margin-right: 0px;
         margin-bottom: 10px;
         background-color: #64915c;
