@@ -1,12 +1,10 @@
 nav{
-    display:flex;
+    display: flex;
     align-items: center; 
     justify-content: space-around;
-    font-family: sans-serif;
-    background-color:transparent;
+    background-color: transparent;
     animation-name:ani1;
     animation-duration: 5s;
-
 }
 a{
     text-decoration: none;
@@ -24,14 +22,13 @@ nav :hover{
    
 }
 .logo{
-    animation-name:ani2;
+    animation-name: ani2;
     animation-duration: 1s;
     animation-fill-mode: forwards;
 }
 
 @keyframes ani1{
-
-    from
+   from
     {background-color:transparent;}
     to{background-color: #64915c;}
     
@@ -43,5 +40,3 @@ nav :hover{
     to{margin-top:10px;}
     
 }
-
-
