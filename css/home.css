@@ -1,8 +1,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    
-    font-family: 'Open Sans', sans-serif;;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body, html{
@@ -73,13 +72,7 @@ body, html{
                          "pic4"
                          "pic5";
     margin-top: 1%;
-    grid-gap:1%;
-    
-    
-
-    
-    
-                   
+    grid-gap:1%;                  
 }
 
 #erbjuda{
