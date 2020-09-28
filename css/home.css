@@ -10,9 +10,10 @@ body, html{
     background-image: url(/imgs/homeimgs/Abstract\ Ambient\ Light\ Background\ Day\ Blue-01.jpg);
     background-repeat: no-repeat;
     background-position: cover;
-    background-size: auto;
+    
 }
-
+/*  Mobile-first approch */
+/*Slide image annimation*/
 .slide-show{  
     box-sizing: border-box;
     width: 100%;
@@ -56,6 +57,7 @@ body, html{
 .slide-show img:nth-child(8){animation-delay:28s;}
 .slide-show img:nth-child(9){animation-delay:32s;}
 
+/*card using grid and Media queries with CSS grids.*/
 
 .container2{
     box-sizing: border-box;
@@ -72,41 +74,44 @@ body, html{
                          "pic4"
                          "pic5";
     margin-top: 1%;
-    grid-gap:1%;                  
+    grid-gap:1%;  
+    font-size: 1.5em; 
+    line-height: 2em;
+                 
 }
 
 #erbjuda{
     
     grid-area:pic1;
-    padding-left: 8%;
+    
       
 }
 
 #lung{
 
     grid-area:pic2;
-    padding-left: 8%;
-    
+    padding-left: 9%;
     
 }
 #lokal{
     
     grid-area:pic3;
-    padding-left: 8%;
+    padding-left: 9%;
     
     
 }
 #tränar{
     
     grid-area:pic4 ;
-    padding-left: 8%;
+    padding-left: 9%;
     
 }
 #vårtid{
     
     grid-area:pic5 ;
-    padding-left: 8%;
+    padding-left: 9%;
     margin-bottom: 14%;
+    
     
     
 }
@@ -135,12 +140,17 @@ h3{
     line-height: 0.5em;
     
 }
+
+/*overlay animation*/
 .middle-container{
     position: relative;
     width:50%;
     margin-left: 35%;
     margin-top: 5%;
     margin-bottom: 5%;
+    font-size: 1.8em;
+    justify-content: center;
+    
 
 }
 .image1{
@@ -173,9 +183,25 @@ h3{
   align-content: center;
 
 }
+footer{
+    padding-bottom: 2px;
+}
+span{
+    font-size: 1.5em;
+    color: rgb(128, 88, 238);
+}
+#dsize{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5em;
+    margin-bottom: 4%;
+    justify-content: center;
+    
+}
 
 
-     
+/* Tablets såsom ipad(mellan 960px och 768px)*/
+
 @media only screen and (min-width:768px) and (max-width:960px){
 
     .container2{
@@ -190,6 +216,8 @@ h3{
     
 
 }
+/* Mindre desktop skrämar:(mellan 1200px och 960px)*/
+
 @media only screen and (min-width:960px) and (max-width:1200px){
     .container2{
         
@@ -211,15 +239,13 @@ h3{
         #vårtid{
             height: 100%;
             
+            
         }
-        .middle-container h4{
-
-            margin-left: 8%;
-        }
+        
         
 }
 
-        
+/* Breda desktop skrämar:(större 1200px)*/
         @media only screen and (min-width:1200px){
           
             .container2{
@@ -240,13 +266,6 @@ h3{
                         padding-right: 4%;
                         
                     }
-                        
-                    .middle-container h4{
-
-                        margin-left: 12%;
-                    }
-                       
-               
-                
+                               
                 
         }
