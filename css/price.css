@@ -13,19 +13,18 @@ body {
     align-items: center; 
     justify-content: space-around;
     background-color: transparent;
-    flex-wrap: wrap;
     animation-name: ani1;
     animation-duration: 5s; 
-    flex-wrap: wrap;
+
 }
 
-nav a{
+a{
     text-decoration: none;
     color: #3c413e;
     animation-name: ani2;
     font-family: 'Open Sans', sans-serif;
-    font-size: 83.5%;
-    justify-content: space-evenly;
+    font-size: 130%;
+    padding: 15px;
 }
 
 nav :hover{
@@ -156,8 +155,6 @@ ul {
     height:auto;
 }
   
-  
-
 @media screen and (max-width: 768px) {
     .grid-container {
         display: grid;
