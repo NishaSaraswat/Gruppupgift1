@@ -46,6 +46,9 @@ p{
     font-family: 'Open Sans', sans-serif;
     color: white;
 }
+footer .copyright{
+    padding-bottom: 1px;
+}
 @media screen and (max-width: 1024px){
     .container1 {
         display: grid;
