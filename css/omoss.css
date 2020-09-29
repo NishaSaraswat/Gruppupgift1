@@ -27,8 +27,8 @@ nav a{
   color: #3c413e;
   animation-name:ani2;
   font-family: 'Open Sans', sans-serif;
-  font-size: 100%;
-  padding-left: 15px;
+  font-size: 90%;
+  padding: 10px;
   
 }
 nav :hover{
@@ -366,6 +366,7 @@ h4{
   }
   nav a {
     font-size: 110%;
+    padding:12px;
   }
 
   
@@ -407,6 +408,7 @@ h4{
       }
       nav a {
         font-size: 120%;
+        padding:15px;
       }
       
       
@@ -445,6 +447,7 @@ h4{
 
     nav a {
       font-size: 130%;
+      padding:15px;
     }
                   
   }            
