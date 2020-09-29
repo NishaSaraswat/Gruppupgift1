@@ -54,8 +54,7 @@ body, html{
 .slide-show img:nth-child(5){animation-delay:16s;}
 .slide-show img:nth-child(6){animation-delay:20s;}
 .slide-show img:nth-child(7){animation-delay:24s;}
-.slide-show img:nth-child(8){animation-delay:28s;}
-.slide-show img:nth-child(9){animation-delay:32s;}
+
 
 /*card using grid and Media queries with CSS grids.*/
 
