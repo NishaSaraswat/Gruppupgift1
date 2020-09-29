@@ -9,12 +9,55 @@
 body,html{
   
     font-family: 'Open Sans', sans-serif;
-    
     height: 100%;
     background-image: url(/imgs/homeimgs/Abstract\ Ambient\ Light\ Background\ Day\ Blue-01.jpg);
-    margin:0 0px;
     
 }
+/* css for header*/
+nav{
+  display: flex;
+  align-items: center; 
+  justify-content: space-around;
+  background-color: transparent;
+  animation-name:ani1;
+  animation-duration: 5s;
+}
+nav a{
+  text-decoration: none;
+  color: #3c413e;
+  animation-name:ani2;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 100%;
+  padding-left: 15px;
+  
+}
+nav :hover{
+  color:white;
+ background-color:#64915c;
+ border-radius: 10%;
+ 
+}
+.logo{
+  animation-name: ani2;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes ani1{
+ from
+  {background-color:transparent;}
+  to{background-color: #64915c;}
+  
+}
+@keyframes ani2{
+
+  from
+  {top:0px;}
+  to{margin-top:10px;}
+  
+}
+
+
 
 h3, h4{
 
@@ -22,6 +65,7 @@ h3, h4{
   text-align: center;
   font-weight:bold;
 }
+
 
 
 /*Guide container css*/
@@ -193,14 +237,14 @@ h3, h4{
     transform: translate(-50%, -50%);
     font-size: 1em;
     color:rgb(3, 48, 3);
-    line-height:150%;
+    line-height:130%;
  
   }
 
   @media (max-width: 768px) {
     .team-text {
       width:100%;
-      font-size: 0.6em;
+      font-size: 0.5em;
     }
   }
   .clearfix::after {
@@ -320,6 +364,9 @@ h4{
                        padding-left: 4%;
    
   }
+  nav a {
+    font-size: 110%;
+  }
 
   
   
@@ -358,10 +405,9 @@ h4{
           
           
       }
-      /*#hundpsycholog{
-          height: 100%;
-          
-      }*/
+      nav a {
+        font-size: 120%;
+      }
       
       
 }
@@ -396,4 +442,9 @@ h4{
                       height: 90%;
                          
                   }
+
+    nav a {
+      font-size: 130%;
+    }
+                  
   }            
