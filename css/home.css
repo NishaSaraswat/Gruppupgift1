@@ -200,11 +200,14 @@ span{
     justify-content: center;
     
 }
-@media screen and (min-width:200px) and (max-width:370px){
+@media only screen and (min-width:200px) and (max-width:370px){
 
     nav a{
         font-size: small;
         padding:0 0 0 0;
+        margin:0;
+        width: auto;
+
         
     }
 }
